@@ -16,7 +16,7 @@ import os
 import re
 
 def buildingDataset():
-  data_path = f"drive/MyDrive/movie_scripts"
+  data_path = f"DSP-Final/movie_scripts"
   scripts = []
 
   for filename in os.listdir(data_path):
@@ -285,6 +285,7 @@ df = pd.DataFrame(metrics)
 df.to_excel("training_results.xlsx", index=False)
 
 best_model_path = trainer.state.best_model_checkpoint
+print(best_model_path)
 model = AutoModelForSequenceClassification.from_pretrained(best_model_path)
 tokenizer = AutoTokenizer.from_pretrained(best_model_path)
 

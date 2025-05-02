@@ -1,7 +1,7 @@
 import os
 
 ratings = ['U', 'PG', '12', '12A', '15', '18']
-folder = "C:/Users/jtove/Documents/GitHub/DSP/DSP/movie_scripts"
+folder = "DSP-Final/movie_scripts"
 
 def remove_empty_files(filename):
     with open(filename, "r+", encoding="utf-8") as file:

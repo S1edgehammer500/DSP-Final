@@ -5,7 +5,7 @@ import time
 import re
 
 # Step 1: Create a directory to store scripts
-output_dir = "C:/Users/jtove/Documents/GitHub/DSP/DSP/movie_scripts"
+output_dir = "DSP-Final/movie_scripts"
 os.makedirs(output_dir, exist_ok=True)
 
 # Step 2: Base URL of the Springfield Springfield page

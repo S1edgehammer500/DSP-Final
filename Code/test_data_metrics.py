@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load Excel file
-df = pd.read_excel("C:/Users/jtove/Documents/GitHub/DSP/test_predictions.xlsx")  
+df = pd.read_excel("DSP-Final/test_predictions.xlsx")  
 
 # Initialize a dictionary to count incorrect predictions per label
 label_map = {0: 'U', 1: 'PG', 2: '12', 3: '12A', 4: '15', 5: '18'}

@@ -1,7 +1,7 @@
 import os
 
 ratings = {"U":0, "PG":0, "12":0, "12A":0, "15":0, "18":0}
-folder = "C:/Users/jtove/Documents/GitHub/DSP/DSP/movie_scripts"
+folder = "DSP-Final/movie_scripts"
 
 def count_ratings(filepath):
     try:

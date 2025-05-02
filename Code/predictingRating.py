@@ -7,7 +7,7 @@ import heapq
 import re
 
 # Load model and tokenizer
-best_model_path = "C:/Users/jtove/Documents/GitHub/DSP/age_rating_classifier/age_rating_classifier/checkpoint-2340"
+best_model_path = "DSP-Final/age_rating_classifier/age_rating_classifier/checkpoint-2340"
 model = AutoModelForSequenceClassification.from_pretrained(best_model_path)
 tokenizer = AutoTokenizer.from_pretrained(best_model_path)
 

@@ -4,7 +4,7 @@ import os
 import re
 import time
 
-folder = "C:/Users/jtove/Documents/GitHub/DSP/DSP/movie_scripts"
+folder = "DSP-Final/movie_scripts"
 
 def search_bbfc_url(title, year):
     query = title.lower().replace(" ", "%20")

@@ -8,12 +8,12 @@ from transformers import Trainer
 from torch.utils.data import DataLoader
 from fine_tuning_BERT import test_dataset, id2label
 
-best_model_path = "C:/Users/jtove/Documents/GitHub/DSP/age_rating_classifier/age_rating_classifier/checkpoint-2340"
+best_model_path = "DSP-Final/age_rating_classifier/age_rating_classifier/checkpoint-2340"
 model = AutoModelForSequenceClassification.from_pretrained(best_model_path)
 tokenizer = AutoTokenizer.from_pretrained(best_model_path)
 
 def predict_on_test_data():
-    # Create dataloader from test data hi
+    # Create dataloader from test data
     test_dataloader = DataLoader(test_dataset, batch_size=8)
 
     # Run predictions
