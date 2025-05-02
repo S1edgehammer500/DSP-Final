@@ -1,0 +1,13 @@
+import requests
+from bs4 import BeautifulSoup
+
+#scraping SimplyScripts for movie scripts
+base_url = "https://www.simplyscripts.com"
+response = requests.get(base_url)
+soup = BeautifulSoup(response.text, 'html.parser')
+
+# Example: Find all links to scripts
+for link in soup.find_all('a'):
+    href = link.get('href')
+    if 'scripts' in href:
+        print(href)

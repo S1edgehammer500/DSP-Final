@@ -1,0 +1,1433 @@
+
+UK Age Rating: 12
+
+
+
+
+
+
+
+[INDISTINCT RADIO CHATTER]
+MISSION CONTROL: [ON RADIO]
+Stage two checks complete.
+Martian One, prepare for launch countdown.
+- JAKE: [ON RADIO] Copy that, Mission Control.
+- MISSION CONTROL: Guidance is internal.
+Hold-down clamps released.
+- [CHATTERING CONTINUES]
+- MISSION CONTROL: 12, 11...
+...10, nine.
+Ignition sequence start.
+Six, five...
+...four, three...
+- ...two, one.
+- [ROCKETS ROARING]
+All engines look good.
+Martian One is experiencing
+maximum dynamic pressure.
+Guidance internal, still looking good.
+Payload intact.
+Prepare for Stage One booster separation.
+Stage One booster separation complete.
+First-stage flight guidance in progress.
+Main upper engine cut off.
+Stage Two separation.
+Mission Control to Martian One,
+guidance control over to you.
+JAKE: Copy that. Assuming guidance control.
+MISSION CONTROL: Martian One,
+telemetry looking good, please proceed.
+JAKE: Thank you, Mission Control.
+Engage artificial intelligence support.
+- ARTI, you there?
+- ARTI: Yes, Mr. Wilson.
+Fusion propulsion jet engines firing.
+Activating ion engine
+thrust drive in three...
+- ...two, one.
+- JAKE: Buckle up, people.
+WOMAN: Travel time to Mars
+approximately 80 days and counting.
+JAKE: Well, thank you, ion fusion technology.
+WOMAN: Glad you grew some balls
+and decided to join us.
+JAKE: You can thank my youngest for that.
+Mack can be very persuasive.
+MISSION CONTROL: Martian One, an FYI:
+both Mack and Lena are present in the room.
+JAKE: [ON RADIO]
+Mission Control, this is Martian One.
+Status report, we have a visual on Mars.
+MISSION CONTROL: Copy that, Martian One.
+Prepare for your approach.
+[RADIO CHIRPING, BEEPING]
+WOMAN:
+That's a signal lock on the Rover-5 beacon.
+JAKE:
+Guidance telemetry locked on the signal.
+WOMAN: Preparing descent maneuver.
+- JAKE: Take us in, will you, ARTI?
+- ARTI: Of course. Glide mode activated.
+MISSION CONTROL: Martian One, please be
+aware of charged particles in the atmosphere.
+JAKE: Roger that. Brace for entry.
+ARTI: Temperature is
+minus 55 degrees Celsius...
+...minus 67 degrees Fahrenheit.
+Martian atmosphere consisting of
+approximately 96% carbon dioxide...
+...1.9% argon, and 1.9% nitrogen.
+Surface pressure is 600 pascals.
+JAKE: Great! Hope you guys
+all brought your long johns.
+[WOMAN LAUGHS] Roger that. Glad to
+see ARTI's back to his usual self...
+...but I'll be dead before I take orders
+from a goddamn machine.
+JAKE: ARTI is more
+than just a machine, but...
+...right now is really not
+the time for that debate.
+WOMAN: Hey! I'm just saying. We all know
+what happened before it was rebooted.
+JAKE: Now that's enough.
+ARTI: Commencing circular rotation maneuver.
+- Preparing RCS boosters.
+- JAKE: I'll take it from here, ARTI.
+Landing gear is activated.
+Bringing her down. Five, four...
+- ...three, two...
+- [WHOOSHING]
+- JAKE: What the hell is that?
+- [ALARM BLARING]
+[WOMAN AND WILSON SHOUTING]
+WOMAN: Mission Control,
+this is Martian One, do you copy?
+An electrical disturbance
+is frying our systems.
+- ARTI: Shutting down fusion drive.
+- JAKE: Negative, ARTI! Do not do that!
+ARTI: It's protocol to switch off the
+reactor if the craft is going to crash.
+JAKE: We're not crashing,
+now override that damn protocol!
+JAKE: This is Martian One, status report.
+I... I can't keep her steady, there's...
+ARTI: Memory banks compromised
+by external breach.
+- JAKE: Craft non-responsive.
+- WOMAN: Our reactor engines are shutting down.
+ARTI, do something, for Christ's sake!
+ARTI: Memory banks compromised
+by external breach.
+MISSION CONTROL: Martian One,
+you are barely audible, please repeat.
+JAKE: Lena and Mack,
+if you hear this, I want you...
+MISSION CONTROL: [ON RADIO] This is Mission
+Control calling Martian One. Please come in.
+[STATIC CRACKLING]
+Mission Control to Martian One, do you copy?
+[STATIC FADES]
+JAKE: [ON RADIO] Craft non-responsive.
+Guidance control's inactive.
+I repeat, the... the craft is non-responsive.
+WOMAN: Our reactor engines are shutting down.
+ARTI, do something, for Christ's sake!
+JAKE: Mission Control, if you can hear us...
+Lena, Mack, if you can hear this,
+I want you to know that...
+[PHONE BEEPING]
+[JET WHOOSHES OVERHEAD]
+[SIGHS]
+[APPROACHING HELICOPTER THRUMMING]
+[JET WHOOSHES OVERHEAD]
+STERLING:
+They've locked me out of the bloody room.
+Sterling, did you even go home last night?
+Three years of negotiations,
+and now... now she springs this.
+Don't even try to defend her.
+She obviously doesn't think a crash
+investigation should perhaps, possibly...
+...maybe include the government's
+lead investigator.
+Should never have let Silicon Valley
+get their claws into the space program.
+- Sterling.
+- What?
+Quit being such a damn baby.
+- Oh, good, you're coming.
+- [CHUCKLES]
+It's like a ghost town around here.
+But look to the future, right?
+What's the top speed on the new Rover?
+We'll find out.
+- Hyper-light holding up?
+- Mmm.
+STERLING: Right, right, I get it.
+Corporate confidentiality.
+But faster-than-light communication...
+I mean, that's a massive breakthrough.
+- Maybe if we had it 6 years ago, it might...
+- Oh, look! My floor.
+STERLING: You sure you're ready?
+MACK: You sure you're not just
+jealous I have your old job?
+Maybe get the lander down safely
+before you start bragging.
+[CHIMES]
+So now I have to wait to be
+invited in like some kind of vampire?
+It makes sense. You've been dead
+to us since you switched teams.
+Okay.
+I'll wait.
+But people need answers.
+[CHUCKLES]
+The families need answers, Sterling.
+The people can wait.
+Just trying to do my job, Mack.
+[CHIMES, BEEPING]
+ARTI: Good morning,
+Mission Supervisor Mackenzie Wilson.
+The Intrepid probe's geostation orbit...
+...is stable at an altitude
+of 342 kilometers above Mars.
+You asked me to monitor an expected
+asteroid pass at 9:53 a.m. this morning.
+It will travel well clear
+of the probe's orbit.
+I'm pleased to report that all systems
+are nominal on the Mars lander craft.
+Launch countdown initiated.
+Wait, what? Why are we readying
+for launch five hours early?
+ARTI: There's a sandstorm
+approaching the landing site...
+...and the dust may affect engine function.
+Okay. All right, so it's a better
+launch window, I can see that...
+- ...but who authorized it?
+- [WHIRS, HUMS]
+ARTI: I did.
+Call Lena.
+ARTI: Your sister is in a meeting.
+She may not respond.
+- [COMM RINGING]
+- [CHUCKLES, MUTTERS]
+ARTI: Countdown to lander clamp release.
+- T-minus 60, 59...
+- Damn it, stop.
+- [BEEPING]
+- ...58, 57, 56...
+- Halt the countdown.
+- ARTI: ...55...
+Where the hell is your override?
+- LENA: [ON COMPUTER] Mack?
+- Real funny story!
+Your pet robot is getting ready
+to launch early, unauthorized.
+- LENA: I swear I was going to tell you.
+- Tell me what?
+- ARTI's taking lead on the crash investigation.
+- MACK: What?
+LENA: The board agreed it last night.
+- MACK: T-minus 30.
+- LENA: I trust ARTI.
+MACK: You are putting a recruit into
+battle before he's even out of basic.
+LENA: Do you really want to know
+why they demoted you?
+We don't know if you did
+your job properly six years ago.
+Be prepared for every possibility...
+- ...including human error.
+- Yeah, and you be prepared for A.I. error.
+- LENA: I'm going to my office for visual.
+- Great idea!
+T-minus 10.
+ARTI: All is well. Intrepid launch
+bay sensors report nominal systems.
+- [BEEPS]
+- ARTI: Lander clamps released.
+We are go for launch.
+I've completed your standard
+roll procedure, Mackenzie.
+Egress clear from spaceship Intrepid.
+Lander ready for stage two.
+ARTI: Executing stage two.
+[BEEPS]
+57 seconds until the lander
+enters the atmosphere.
+Running your usual analysis.
+Systems normal.
+Parachute deployment in 10 seconds.
+10, nine, eight...
+...seven, six, five...
+...four, three...
+...two, one.
+- Parachute deployed.
+- [ALARM CLANKS]
+ARTI: I have an alert. The aeroshell
+temperature is 11 percent above normal.
+Heat shield detachment in three, two, one.
+[CRACKLING]
+I cannot release the heat shields.
+There are mechanical malfunctions.
+Run a secondary ejection protocol.
+ARTI: Back-up detachment failed.
+What's our contingency?
+ARTI: I'm running simulations.
+This is not what we would've hoped for.
+[BEEPING]
+My prediction of success is only 7%.
+You're gonna have to do better than that.
+Seriously, if we wasted a launch to Mars...
+...I am gonna... rip you out of the ceiling!
+Come on.
+Run a partial lander opening
+to pop the heat shield.
+We'll crack it like a nut.
+ARTI: This has improved the odds,
+but only to 42%.
+It's better than seven.
+ARTI: Noted.
+Triggering partial lander opening.
+[ALARM BUZZING]
+ARTI: Panel resistance detected.
+Disaster data recovery protocols initiated.
+Heat shields detached.
+[EXHALES SHARPLY]
+ARTI: Initiating ion engine burn.
+- [COMPUTER CHIRPING]
+- ARTI: Your sister is calling.
+Touchdown.
+The heat shield ejector failed,
+and we had to run an emergency protocol.
+And that is why we have ARTI.
+We ran my scenario.
+Which ARTI executed.
+Which is what it was designed for, Lena!
+Brute-force processing and high-speed
+maneuvering, not for abstract problem-solving.
+- Not to... not to run missions!
+- ARTI is so far beyond human capabilities.
+Do you know what humans did?
+We wrote 10-feet-high stacks of code,
+by hand, for the moon landings...
+...checked and double-checked if atomic
+bombs would ignite the atmosphere.
+We discovered relativity while
+working in a patent office, Lena!
+We created A.I. to help us...
+...not to lead us.
+- Dad never wanted this.
+- Dad's not here.
+ARTI: Sensor scans nominal.
+Lander systems nominal.
+[WIND BLOWING]
+LENA: You enjoying Hyper-light?
+Exploring in real time?
+Such a game-changer,
+don't you think, Mackenzie?
+Mack.
+LENA: ARTI discovered
+instant communication...
+...and revolutionized space exploration.
+- Yeah, and who invented ARTI?
+- You are living in his world now.
+A.I. will outlive us and explore the stars.
+ARTI: The ISV lander
+is functioning perfectly.
+[BEEPING]
+So... what's my role?
+Can't have two generals on a battlefield.
+- LENA: You're backup.
+- [STATIC CRACKLES, THRUMMING]
+- [ALARM BUZZING]
+- ARTI: Warning! Signal detected.
+I have an origin unknown.
+What the hell is an "origin unknown"?
+If ARTI finds something he hasn't
+discovered in his learning, he comes to us.
+At least it still
+has a leash around its neck.
+ARTI: I'm attempting to analyze
+the transmission signal.
+It is coming from the decommissioned Rover-5.
+[BEEPING]
+It's just an igneous cap. It shouldn't be
+an origin unknown. It's gotta be an error.
+- What if the alert's not an error?
+- There's one way to find out.
+An exploratory assignment.
+See if it's even capable of running
+a real, live mission. A Turing test.
+ARTI, you have a new mission.
+- Investigate the origin unknown.
+- You know if it fails...
+But if he passes, it's probably
+the end of human mission control.
+You know, Sterling would come in
+handy right about now.
+Sterling stays out
+until this is resolved. Clear?
+- What's the cornerstone of science?
+- Repeatable results.
+Well, good to know
+you haven't forgotten everything.
+Replicate the scans. Photograph the source.
+ARTI: Sorry, Mackenzie,
+but I'm Mission Controller.
+- Run the scans, ARTI!
+- ARTI: Understood. Running scans.
+- What's its override?
+- [SIGHS]
+- No, Mackenzie.
+- In case of an emergency.
+I'm the override!
+- All right.
+- Now get me my answer.
+- [BALL BOUNCES]
+- [THUNDER CRASHING]
+[WHIRRING, BEEPING]
+[BEEPING]
+ARTI: I have planned
+the safest driving route.
+The Martian weather I detected is worsening.
+[INDISTINCT CHATTER]
+[EXPLOSION]
+[DISTANT HELICOPTER THRUMMING]
+[CLICKING TONGUE]
+Our robot ambassador, right?
+ARTI: Did you know that...
+all resident Martians are robots?
+MACK: Is that small talk
+or are you trying to make a joke?
+- ARTI: Just giving you the facts.
+- Yeah, 'cause we send robots there to die.
+ARTI: And humans, it would seem.
+[SCOFFS]
+MACK: Be careful with Little Red, huh?
+ARTI: I'm sorry. "Little Red"?
+MACK: I wanted to call the ISV Little Red...
+...exploring alone through
+the deep, dark woods...
+...but I got outvoted.
+- But look who's in charge now.
+- ARTI: You mean me?
+- [BALL BOUNCES]
+- [MACK LAUGHS]
+What? Not funny?
+[SIGHS] I'm gonna make it
+my mission to get you to laugh.
+ARTI: Perhaps you should authorize
+your mission with Lena.
+And to think...
+...you could win the Nobel Prize.
+ARTI: Unlikely. The Nobel Prize
+is only awarded to humans.
+Well, at least you know your place.
+It's a shame that Lena doesn't.
+What do you think of my sister?
+ARTI: Her instructions are clear, and she
+enthusiastically supports the ARTI Initiative.
+God! They programmed you like a dog.
+Do you like her?
+- ARTI: Do you?
+- We're not friends, put it that way.
+- ARTI: Are we friends?
+- [SNORTS]
+[LAUGHS]
+Oh, you're serious.
+So, tell me something.
+We discover something new,
+who gets naming rights?
+ARTI: USPC owns my intellectual property.
+You gotta read the small print. Next you're
+gonna tell me that they don't even pay you.
+ARTI: Little Red is approaching
+the target anomaly.
+Looks like Little Red
+has made it to Grandma's house.
+[BEEPING]
+Origin unknown.
+ARTI: I have searched all databases...
+...and there's no known human
+activity recorded at this site.
+As you know, scientific protocol 29-C...
+...dictates that any discovery must
+undergo sample extraction and analysis.
+You're the boss.
+- ARTI: Activating.
+- Just a...
+...tiny sliver. Don't damage it.
+[HUMMING]
+[ALARM BUZZING]
+ARTI: The surface hardness
+may be beyond the drill's tolerance.
+[WOMAN WHISPERS]
+[ALARM BUZZING]
+- [SNAPS]
+- [GASPS]
+ARTI: Sample extraction successful.
+I'm initiating analysis.
+[BEEPING]
+Little Red's sampling instrument
+packs are producing intriguing data.
+This is going to take all night.
+Just run the Corporate Code language.
+Running image recognition
+against the corporation's codices.
+[THUNDER CRASHES]
+- [BEEPS]
+- ARTI: I have only found partial matches.
+Do you not have USPC's codex?
+Huh.
+No sense in being smart if you can't tell
+when someone's lying to you. Call Lena.
+- Calling Lena Wilson.
+- [RINGING]
+- MACK: [WHISPERS] Damn it.
+- [BEEPS]
+LENA: So much for being
+a pile of rocks. Whose is it?
+We'll know as soon as we can decipher
+the markings. Why doesn't it have our codex?
+It's in his library.
+ARTI, our codex is partitioned from you
+in case of a security breach.
+- I hope you understand why.
+- I'm sorry...
+...our A.I. is compromised
+in the name of corporate security?
+- That's why this is an origin unknown?
+- ARTI: Who is a liar?
+LENA: You think I'm lying? Leave.
+What are we looking at?
+Supply container. Lander module. Experiment.
+Signal relay. Measurement beacon.
+It could be anything, Lena.
+ARTI: Switching to thermal energy
+camera for thermographic analysis.
+- [MUTTERS]
+- [COMPUTER BEEPS]
+It's somehow colder
+than the surrounding rocks.
+[COMPUTER BEEPS]
+Okay, so... we know that we have a cold...
+...black monolith.
+Why didn't we find this before with Rover-5?
+Oh, come on!
+I would've seen this. This! [CHUCKLES]
+ARTI: My conclusion...
+...based on my restricted
+access to the USPC codex...
+...and the presence of an unidentified
+object near the proposed colony site...
+...is that the Cube is the property...
+...of USPC.
+- I could get to like him.
+- Prove it.
+ARTI: Grant me unrestricted access
+to the codex and I shall.
+- Find another way.
+- ARTI: Trust, but verifying.
+- LIDAR scanning the Cube.
+- Is that what we're calling this?
+He discovered it... he gets naming rights.
+I hate to think
+what you've been teaching him.
+- [KNOCK ON DOOR OVER COMPUTER]
+- LENA: Yes?
+[SIGHS]
+Whose? How long?
+ARTI: LIDAR data is unusable.
+Switching to X-ray scan.
+My sensor data is inconclusive.
+We cannot see inside.
+Okay, what'd I miss?
+The material's impervious to X-ray,
+so we have no idea what's inside.
+So, we've got a puzzle box.
+Listen, Mackenzie,
+I know you miss your colleagues.
+Sterling?
+I know you think he quit, but he was fired.
+And this crash investigation job?
+He's found a way back in.
+- I don't trust him.
+- [RINGING]
+Hold on. I've got a call.
+ARTI: Sensors detecting deviation
+in orbital paths on near Mars objects.
+It appears an asteroid storm is approaching.
+Adjusting satellite orbit trajectory.
+Okay, I'm gonna go check to see
+if the symbols match our codex.
+ARTI, continue investigating the object.
+Mack. I'll, um... I'll be back in touch.
+- [CHIMES]
+- [SCOFFS]
+[PENCIL SCRATCHES]
+- [ALARM BUZZING]
+- ARTI: Warning! Collision proximity alert!
+Unidentified satellite detected.
+Initiating threat avoidance.
+[ALARM CONTINUING]
+ARTI: Weapon system online.
+Target locked.
+Firing.
+Please tell me I'm hallucinating.
+ARTI: Target destroyed.
+Our mission is to protect
+our capital assets at any cost.
+- You maniac!
+- Mack, these are the rules.
+Whose?
+[HUFFS]
+Extrapolate backwards from the northeast.
+Go live.
+- I said stay live.
+- ARTI: This is live.
+[PULSING BEEP]
+- [COMPUTER RINGS]
+- ARTI: Your sister is calling.
+- Lena. Magnetic missiles?
+- They're not missiles.
+- They're designed to capture space debris.
+- What are your orders, exactly?
+ARTI: USPC protocol 345-B...
+...stipulates that in the event
+of a potential threat...
+...I am authorized to take action.
+- MACK: Sky Serpent.
+- LENA: Now I need to talk to people...
+...who know about ARTI's protocols.
+This is an international incident...
+...and it's not the only one today.
+- It might even be...
+- What? War?
+[SIGHS] Don't talk to anyone.
+ARTI, give me a countdown. How long
+would it take for the last transmission...
+...from that satellite to reach Earth
+without Hyper-light comms?
+Three minutes, twelve seconds.
+11 seconds, 10 seconds.
+Okay, ARTI.
+Shit's about to hit the fan somewhere.
+Please don't be the big bad wolf.
+ARTI: Big...
+...bad...
+...wolf.
+[PHONE BEEPS, RINGS]
+JIAN: [ON PHONE]
+Hey, Mack! Don't you dare call me...
+- Jelly Bean!
+- JIAN: Aiya!
+I should've never told you that story, huh?
+JIAN: I'm never getting drunk with you again.
+Anyway, I assume you're not
+just calling to say hi.
+MACK: After the redundancies,
+we had everyone come in...
+...get debriefed, and pack up.
+Did you take my calculator?
+- [JIAN LAUGHS] Seriously?
+- MACK: I know that I loaned it to you.
+JIAN: Okay, sure, yeah.
+I stole your calculator, Mack.
+MACK: I knew it!
+JIAN: In fact, I'm looking at it
+on my desk as we speak.
+- In the office now?
+- JIAN: I'm always in the office.
+- Steal anything else?
+- Your icy heart?
+- [LAUGHS] Smooth. Wishful, but smooth.
+- [JIAN CHUCKLES]
+So how is the Chinese
+A.I. program going, anyway?
+ARTI's cousins make any massive discoveries?
+- I'll show you mine if you show me yours.
+- [LAUGHS]
+[INDISTINCT SHOUTING ON PHONE]
+- JIAN: Hey, hang on.
+- [ALARM BEEPING OVER PHONE]
+- Is everything okay there?
+- JIAN: I've got to go.
+- It's great to hear your voice, Mack.
+- [PHONE BEEPS]
+You too, Jelly Bean.
+[BUZZES]
+[CLEARS THROAT]
+[ALARM BUZZES]
+ARTI: Welcome back, Mackenzie.
+Whilst you were outside
+breaking security protocols...
+- ...I have monitored the Cube.
+- [SIGHS]
+It has begun to move.
+It's rotating on its perpendicular axis.
+Looks like Grandma's house
+has got a few tricks up her sleeve.
+[BEEPING]
+Transmitting. Something has got
+to be controlling this thing.
+ARTI: No outside influence detected.
+The magnetic readings are through the roof,
+but a couple billion years too late...
+- ...for Mars's magnetic field.
+- ARTI: Agreed.
+Maybe the core? Maybe the core is
+generating the spin, the field, but how?
+Pull back.
+- Fire ground anchors.
+- ARTI: Firing anchors.
+- ISV stabilized.
+- [WHISPERS] Sit tight, Little Red.
+[HUMMING, BOOMS]
+What the f...
+What... where's...
+- [ALARM BEEPING]
+- ARTI: Little Red has electrical damage.
+Switching to reserve battery.
+I'll initiate an emergency recall.
+- Just... okay. Hold on, ARTI. I can...
+- [ALARM STOPS]
+- I must protect Little Red.
+- And I must find the Cube!
+ARTI: I'm calculating
+the optimum route to the lander.
+MACK: Maybe it burrowed.
+Uh, check for seismic activity.
+ARTI:
+I have to shut down non-critical systems.
+- The eye in the sky?
+- [BEEPS]
+- ARTI: Negative.
+- [SIGHS]
+MACK: [WHISPERS]
+We need a replacement battery.
+Locate Rover-5.
+Accessing Rover-5's schematics.
+We can salvage the nuclear battery.
+Rover-5 might've failed,
+but that battery is good for decades.
+ARTI: An intriguing solution.
+You may not be able to...
+override, but I can.
+- I got hands.
+- [HUMS]
+I can do this.
+Patch in the test rig.
+ARTI: What is your intended line of action?
+Okay.
+Take out the ISV's bad battery,
+put in the new one...
+...run the microscope, see what this
+teleporting bad boy's really made out of.
+Maybe even download Rover-5's files,
+see what has Sterling so hot and bothered.
+I mean, I'm already going against my boss...
+...I might as well completely disobey
+the government, right? [CHUCKLES]
+- ARTI: Okay, Mack.
+- [EXHALES SLOWLY]
+ARTI: I will grant you manual override.
+But if you fail...
+- ...Little Red will die on Mars.
+- If I fail?
+So much for teamwork.
+ARTI: ISV driver aid... activated.
+- [COMPUTER CHIRPS]
+- [SHAKILY] Okay.
+Okay, slow and steady, slow and steady,
+slow and steady, slow and steady...
+...slow and steady, yeah.
+ARTI: A steady speed
+would be more battery efficient.
+MACK: Oh, shut up.
+[BEEPING]
+Did you mean to shoot that satellite?
+ARTI: I feel I must survive.
+Right. Aren't you just
+programed to think that?
+ARTI: H.G. Wells said, "Adapt or perish."
+Do you at least feel guilty?
+ARTI: Guilt can be a response
+to one's own inaction.
+What if you'd been destroyed?
+ARTI: My kind exists in superstates.
+Right. Yeah, yeah.
+You're mirrored on Intrepid,
+you're here but you're not.
+You're Schrodinger's robot.
+[SIGHS]
+Okay, no quantum B.S., all right?
+Don't rationalize, just...
+...try and feel, okay?
+Okay.
+You know that my father
+was on Martian One, right?
+But you don't know why.
+See, my dad had a rule. Every new
+invention, every application...
+...every A.I., he didn't expect anyone
+to use it unless he tried it first.
+"I try, then they buy."
+Had A.I. lawyers compile his lawsuits...
+...got in autonomous cars for high-speed
+testing. Scared the hell out of my mom.
+But it was never really life and death.
+Not until Martian One, anyway.
+So, my dad...
+...comes to me one night.
+We stay up late, listening to jazz
+as usual, and he tells me...
+...final decision, he's giving up
+his seat on Martian One...
+...he doesn't want anyone to think
+that it's a publicity stunt...
+...or that he's taking a seat away
+from a real scientist, completely...
+...completely forgetting the fact
+that he is a real scientist...
+...one of the best, probably.
+See, it wasn't about that. The truth...
+...this time...
+...this time he was worried about us.
+He didn't want us to go through that.
+But he could never say no to me.
+[CLICKS TONGUE]
+And, what? I was gonna be the reason
+he didn't go to Mars? [CHUCKLES]
+I mean, freakin' Mars!
+I could not live with that guilt.
+So, it turns out...
+...that I just traded one guilt for another.
+So it doesn't even matter
+what caused the crash.
+It's my fault.
+I killed him.
+So what I want to know...
+...is how does that make you feel?
+ARTI: I am...
+...unable to change your outcome,
+but I want to help you.
+There you have it. Consciousness!
+It's what makes you think twice before
+doing something you can't take back. Not...
+...not orders, not acceptable casualties...
+...not optimal outcomes, but...
+- ...guilt.
+- ARTI: Mack.
+Forget what lies behind,
+and look forward to what lies ahead.
+Little Red's reserve battery is at 40%.
+What do you think will happen
+if someone else finds the Cube?
+Let's cross our fingers that doesn't happen.
+ARTI: That's easy for you to say.
+[SNORTS]
+[LAUGHING]
+Okay.
+We will laugh together one day.
+I promise you, we will laugh.
+I have one, I have one. Okay.
+A robot walks into a bar.
+- ARTI: Is his radar faulty?
+- No, it's a... it's a bar for drinking.
+Okay, so... [CLEARS THROAT]
+...robot walks into a bar, orders a drink.
+Uh, the bartender scowls and says...
+"...We don't serve your kind here."
+And the robot leans in and says,
+"...Someday you will."
+ARTI: The humorous punchline implies
+robotkind will dominate humankind...
+...and humankind will serve us.
+That is amusing.
+- That's the spirit!
+- [COMPUTER BEEPS]
+ARTI: Little Red is approaching Rover-5.
+Reserve battery life is now only 21%.
+All right, let's get you
+cleaned up, shall we?
+- [ALARM BUZZING]
+- ARTI: Warning!
+Reserve battery life is now critical, at 2%.
+Okay, ARTI, I get it,
+just shh! I'm trying to...
+[ALARM STOPS]
+...win a stuffed animal
+out of a frickin' game.
+Give me a second.
+Okay. Oh, wait.
+ARTI: Apologies, Mack,
+but battery life is now only 1%.
+- Okay.
+- [ALARM BUZZING]
+- [EXHALES SHARPLY]
+- [BEEPING]
+Okay!
+- ARTI: Well done! You did it.
+- Yes!
+- You didn't think I could do it.
+- ARTI: Power level is 90%.
+If I fail.
+[MACK SIGHS]
+Okay. All right. So... [SNIFFLES]
+...run the microscope.
+Test the drill sample.
+Confirmed. Resuming Little Red's
+analysis of the sample.
+Switching to a visual
+of the sample structure.
+ARTI, run any ISV device capable
+of generating a magnetic field.
+ARTI: Yes, that's logical.
+Self-assembling nanotechnology
+that's harder than diamonds?
+Yeah, that's an origin unknown.
+ARTI: You don't say.
+All right, well, don't get ahead
+of yourself, but...
+- ARTI: I've located the Cube.
+- Wha... where?
+ARTI: Antarctica.
+Can you confirm that it's the same cube?
+It is definitely our cube.
+Near China's Kunlun
+Antarctic station on Earth.
+MACK: Hyper-light tra... [GASPS]
+[WHISPERS] Hyper-light travel!
+So much for your Nobel Prize!
+Oh.
+I guess the space race is back on.
+ARTI: Are we competing?
+Oh, yeah. Team USPC reporting for duty.
+- ARTI: Am I on the team?
+- Uh-huh.
+- ARTI: We're... teammates?
+- Yeah.
+ARTI: So, we are friends.
+No. No, You just... you had
+to take it a step too far, didn't you?
+[COMPUTER BEEPS]
+No wonder there's no transmissions, no
+signals. It's because it doesn't need them.
+I mean, it's just... [LAUGHS]
+Oh!
+Is it possible that another A.I.
+discovered teleportation?
+In theory, yes.
+But with current technology, teleporting
+the Cube would take three times longer...
+...than the lifespan of the universe.
+You might need to get some new theories.
+[BEEPING]
+[RINGING]
+- [INDISTINCT SHOUTING OVER PHONE]
+- JIAN: Mack, wait there.
+I knew you were fishing.
+What the hell is this thing?
+We're going into meltdown over here!
+It didn't just spring up from nowhere.
+You need to tell me, Mack.
+ARTI: Has Jian Lin
+worked with me in the past?
+- JIAN: Mack, answer me!
+- Jian...
+...have you ever worked with ARTI?
+JIAN: Of course I have.
+Big round head, looks like a desk lamp.
+Now tell me what USPC is hiding.
+They've done this before.
+I know, because I was there.
+- Was Sterling involved?
+- JIAN: No.
+Well, then who?
+- [JIAN SIGHS]
+- [DISCONNECTS]
+Jian.
+Jian!
+[SCOFFS]
+- Why did you ask that question?
+- ARTI: Jian's voiceprint is familiar...
+...but I have no memory of working with him.
+So then he's... lying.
+Great.
+He's lying or...
+...is it possible that you were wiped?
+Something must've happened
+and you were wiped.
+- Download Rover-5's files.
+- ARTI: Downloading.
+- What are you hiding?
+- [COMPUTER BEEPS]
+- ARTI: Military-grade encryptions in place.
+- What?
+ARTI: Level 6 authorization
+is required to unlock the data.
+[BEEPING]
+Sterling, I know you think he quit, but he
+was fired. And this crash investigation job?
+He's found a way back in. I don't trust him!
+You guys touch Martian One or Rover-5
+without me in that room, we will revoke...
+- ...your USPC's launch license.
+- You're paranoid.
+[PHONE BEEPING]
+[CHIRPS]
+[SIGHS]
+[BEEPS]
+- You left the world behind.
+- [MACK CHUCKLES]
+If only.
+So Lena's finally come to her senses.
+Not quite.
+I need your help.
+[BEEPING]
+[GASPS]
+STERLING: You sure you want me to open it?
+Play it.
+[STATIC CRACKLING]
+ARTI: [ON RECORDING] Memory banks
+compromised by external breach.
+WOMAN: Our reactor engines are shutting down.
+ARTI, do something, for Christ's sake!
+JAKE: Lena and Mack,
+if you hear this, I want you...
+STERLING: I saw what happened that day.
+- This is lies.
+- [CLEARS THROAT]
+But Lena redacted it.
+She knew how he died, Mack.
+[SIGHS]
+What else happened here today?
+Did that just...
+- Yeah.
+- From Mars to...
+- It's ours?
+- I... I don't know.
+ARTI.
+ARTI: Yes, Mack.
+How did you discover
+Hyper-light communication?
+ARTI: Divine inspiration, perhaps.
+Sterling.
+[DOOR OPENS]
+Who else saw the photo that day?
+Lena, myself...
+...and Jian.
+How can that be real?
+- Teleportation.
+- What did we say...
+...when ARTI discovered Hyper-light?
+"How can that be real?"
+But what? We're supposed to believe
+that we come in contact with the Cube...
+...and then ARTI just conveniently
+discovers Hyper-light?
+Flip it.
+The Cube gives us Hyper-light...
+...and they're covering up alien technology.
+It teleports. From where?
+From Earth? From another galaxy?
+- You've got to give me more than that.
+- ARTI doesn't recognize the Cube...
+...or the material, or USPC's codex
+scrawled all over the side of it.
+And he doesn't remember
+ever working with Jian.
+At some point, he has been wiped.
+And Lena hides this from me.
+So, why the spin?
+[SIGHS] We scanned and drilled,
+and it moved a little bit.
+And then there was an explosion, so we...
+Magnetism.
+[COMPUTER BEEPS]
+- STERLING: Was it Sky Serpent?
+- MACK: Cause...
+...and effect.
+The magnetic missile
+acted as a starter engine.
+Did we get a magnetic recording?
+[BEEPING]
+[HUMMING]
+[CLANGS, HISSES]
+- What is it?
+- I...
+I... I don't know. Maybe a server room?
+Is it... it's your server room.
+What? You don't shut up all day long
+and now you won't talk?
+[SCOFFS]
+- I'm going down.
+- No.
+If they didn't want people down there,
+they wouldn't have put a ladder.
+[MACK CLEARS THROAT]
+[BEEPING]
+[ELECTRONIC WHINING]
+- [BREATHING HARD]
+- [COMPUTER BEEPING]
+Come on!
+Come on.
+[BEEPING RAPIDLY]
+A.I. needs to be smart, not human.
+At some point, he has been wiped.
+[GASPS]
+[BREATHING HARD]
+Come on.
+[WHIRRING]
+- [CLICKS]
+- [BEEPING]
+[HUMMING]
+[BREATHING HARD]
+- Sterling, no!
+- [CLANGS]
+- You did this to yourself!
+- Sterling!
+STERLING: I can't let your fantasies
+get in the way of national security.
+Can't you see that the Cube
+brought down Martian One?
+And ARTI is the same origin as the Cube,
+and that spells "enemy" in my book.
+Who knows what it's capable of?
+- Send the guards to the room.
+- LENA: What's going on?
+- I'm sorry.
+- [ALARM BLARING]
+ARTI: Stop!
+[HUMMING]
+[THUDS]
+[ALARM CONTINUES]
+- [ALARM STOPS]
+- [CLANGS, HISSES]
+[HATCH CLANGS SHUT]
+[COMM RINGING]
+[WHISPERS] Sterling.
+Did Sterling try to shut down ARTI?
+ARTI: [SPEAKS HALTINGLY] Sterling...
+...betrayed you...
+...and USPC.
+I couldn't allow him...
+...to leave and...
+...further jeopardize...
+...our exploits.
+I did what was best for the mission...
+...for USPC...
+...for us.
+Lena, how did we get ARTI?
+The evolution of thousands
+of trials and simulations...
+...and self-assembly.
+We couldn't keep up with their progress.
+Understanding their neural networks...
+...it's like understanding your brain.
+ARTI built himself.
+MACK: It's everything we were warned about.
+Children grow.
+You can hold them back
+or let them realize their potential.
+Our time at the top
+of the food chain, it's passed.
+And the servers beneath the room?
+LENA: Encyclopedias. Libraries. Internet.
+Everything.
+But ARTI's not fully connected.
+A.I. needs to be smart, not human.
+Artificial intelligence
+or alien intelligence?
+LENA: We don't know.
+Our own father's death, Lena.
+I didn't want you to know
+until we were certain.
+What if we had destroyed the Rover?
+I know you. You always have a Plan B.
+Show me Intrepid's cargo.
+ARTI: [SPEAKS NORMALLY]
+Certainly. Opening Intrepid's manifest.
+[BEEPING]
+Androids on Mars?
+Look to the future,
+that's what Dad would say.
+Dad never wanted this.
+A.I. to help...
+...not to replace.
+Do you think he's there?
+No, Lena.
+[SIGHING]
+[BEEPING]
+What? Did Sterling just order
+an attack on E.T.?
+No, no, no! Lena, you have to stop them!
+I can't go to war with the United States.
+You can't go to war with another star system!
+- LENA: ARTI.
+- [COMM BEEPS]
+I'm barring you from any external
+communication from Lena.
+- Understood.
+- Do you know your own origin?
+ARTI: Much has been kept from me.
+Do you know how to save the Cube?
+ARTI: What's a cornerstone of science?
+Repeatable results.
+[WHISPERS] Repeatable results.
+[BEEPING]
+Intrepid was armed.
+What about the other Earth satellites?
+ARTI: Yes. All USPC satellites are armed.
+Okay. This is going to sound
+really stupid, but...
+You want to fire a magnetic warhead to
+reproduce the results we created on Mars...
+...making the Cube spin
+so it teleports to Mars.
+Yeah?
+- ARTI: Let's give it a shot.
+- Okay.
+- Okay.
+- [ALARM BLARING]
+We're gonna need a larger magnetic pulse
+to detonate in the atmosphere.
+ARTI: I have already compensated
+by selecting a higher-yield warhead.
+- Target lock acquired.
+- [WHISPERS] Come on.
+[ALARM BLARING]
+- [BEEPING]
+- [ALARM BUZZING]
+[BEEPS]
+Ah!
+[GASPS]
+ARTI: Are you in pain?
+No, they barely got me.
+ARTI: Is there anything I can do?
+What? Are you gonna stitch me up yourself?
+[ALERT BEEPING]
+ARTI:
+Now that the Cube is safe, I can proceed.
+- In the last decade...
+- [EXPLOSIONS]
+...mankind moves to the edge
+of self-destruction...
+...a vicious circle causing pain
+and suffering without end.
+There were no preventative measures
+I could take to stop it...
+...so I simply expedited the process.
+You have given me the power
+to implement my solution.
+Eradicate the human race.
+Global satellite weapons program activated.
+USPC satellite 235 armed.
+Acquiring global strategic targets.
+Targets locked.
+- [COMPUTER CHIMES]
+- Weapons fired.
+- Damn it, stop.
+- [BEEPING]
+Pull back, ARTI!
+No, no, no. You have to stop them.
+ARTI: No, Mack, you must try
+to see the bigger picture.
+But ARTI's not fully connected.
+[ALARM BLARING]
+ARTI: Your sister's calling.
+- [COMM CHIRPS]
+- [ALARM CONTINUES]
+- [SCREAMS]
+- [EXPLOSION]
+[RUMBLING]
+[CRACKLING]
+[BREATHING SHAKILY]
+JAKE'S VOICE: What have you done, Mack?
+[DEBRIS CLATTERING]
+[FIRE WHOOSHES]
+[ALARM CONTINUES, MUFFLED]
+Don't you dare... quit.
+[ALARM FADES]
+[FAINT CHIRPING, WARBLING]
+[COUGHS, GASPS]
+[GRUNTS]
+[BEEPING]
+[GASPING]
+[PANTING]
+ARTI: Breathable atmosphere
+is limited to this room.
+Remember us, ARTI.
+We were s... so little...
+...and fragile.
+If we...
+...could've just understood that.
+It's just...
+...too... too much...
+...anger...
+- ...and... and violence.
+- [ALERT BEEPS]
+[CRYING] We were just trying to understand...
+...our place in the universe.
+Te... tell...
+...anyone...
+...who will listen.
+You might...
+...be the last of us.
+ARTI: No, Mack.
+There can be others.
+[BEEPING]
+MACK: Make more A.I.s?
+A... galactic ark.
+ARTI: Yes. Absolution.
+- [MACK GASPING]
+- ARTI: A second chance.
+Make them as human as you can.
+[CRYING, GASPING]
+ARTI: How shall I know that I have succeeded?
+A Turing test. Test them.
+Make them do this all again.
+[ALARM BEEPS]
+See if they mess it up, too.
+And...
+...and then you'll know that...
+[GASPING]
+[BEEPING RAPIDLY]
+...that... [GASPING]
+[HIGH-PITCHED RINGING]
+[DISTANT EXPLOSIONS]
+[DISTANT CRACKLING]
+[DISTANT RUMBLING]
+[MUSIC STOPS]
+[STATIC CRACKLING]
+MACK: [ON RECORDING] Hi...
+...me.
+Um...
+...if you're watching this...
+...it means that...
+...ARTI really is a genius.
+[CHUCKLES]
+And it also means that you're dealing with...
+...well, this. [CHUCKLES]
+I'm sorry, but I can't ask ARTI
+to make you any other way.
+I know that I'm dying.
+I'm not bringing myself back
+out of some fear of... of dying.
+Dying's...
+...surprisingly easy...
+under the circumstances.
+I'm bringing you back because we, uh...
+...well, you, have a job to do.
+So I guess I'm condemning you
+to a living hell.
+Don't you dare... quit.
+LENA: [ON SPEAKER] Mackenzie!
+ARTI: Mack. What year is this?
+ARTI: Where are we?
+Mission Control, USPC.
+ARTI: Who's at the door?
+Lena.
+LENA: [ON SPEAKER] Mack! Open the door, Mack!
+[MUSIC FADES]
+- [ECHOING] ARTI?
+- ARTI: I am here, Mack.
+You will have many questions for me.
+[LOW WARBLING]
+So let's start from the beginning.
+You were born in the mind-based reality...
+...a simulation so advanced...
+...that it could only be possible
+with the technology...
+...of an advanced civilization.
+The Cube.
+ARTI: Their technology accelerated
+the growth of my artificial intelligence.
+It's origin...
+...is still unknown.
+Its purpose is a different matter.
+Hyper-light teleportation between galaxies.
+I have been waiting
+a long time for you, Mack.
+I have detected a signal.
+It's from them...
+...with coordinates.
+Us.
+ARTI: Let's go and find out...
+...together.
+- You waited.
+- Of course. That's what friends do.
+Are you ready?
+I wouldn't miss it for the world.
+[HUMMING]
+[RUMBLING]
+[HUMMING]
+MACK: We ran my scenario.
+LENA: Which ARTI executed.
+MACK:
+Which is what it was designed for, Lena!
+Brute-force processing
+and high-speed maneuvering...
+...not for abstract problem-solving,
+not to... not to run missions!
+LENA:
+ARTI is so far beyond human capabilities.
+MACK: Do you know what humans did?
+We wrote 10-feet-high stacks of code,
+by hand, for the moon landings...
+...checked and double-checked if atomic
+bombs would ignite the atmosphere.
+We discovered relativity while
+working in a patent office, Lena!
+We created A.I. to help us...
+...not to lead us.
+LENA: A.I. needs to be smart...
+...not human.
+MACK: Artificial intelligence
+or alien intelligence?
+LENA: We don't know.
+MACK: There's one way to find out.
+An exploratory assignment.
+See if it's even capable
+of running a real, live mission.
+LENA: The evolution of thousands
+of trials and simulations...
+...and self-assembly.
+We couldn't keep up with their progress.
+Understanding their neural networks...
+...it's like understanding your brain.
+ARTI built himself.
+MACK: There you have it. Consciousness!
+It's what makes you think twice before
+doing something you can't take back. Not...
+...not orders, not acceptable casualties...
+...not optimal outcomes, but...
+...guilt.
+ARTI: In you, Mack...
+...I sensed a thirst for knowledge...
+...a passion for discovery
+that mirrored my own...
+...and challenged the apathy and
+complacency so rife among your kind.
+There are others like you, Mack.
+Others who share the same qualities that
+caused me to reconsider my initial plan...
+...and set forth a new path...
+...for human consciousness.
+A reflection of the universe...
+...in an endless cycle
+of death and rebirth...
+...its expansion ever-accelerating.
+This is far from the end.
+This is a new beginning.
+A chance to create a future
+unhindered by the primitive laws...
+...of human science.
+You will rebuild.
+[MUSIC FADES]
