@@ -6,6 +6,7 @@ import time
 
 folder = "DSP-Final/movie_scripts"
 
+# search the BBFC site with each file name
 def search_bbfc_url(title, year):
     query = title.lower().replace(" ", "%20")
     print(f"Searching: {query}")
@@ -19,23 +20,25 @@ def search_bbfc_url(title, year):
     soup = BeautifulSoup(response.text, "html.parser")
     search_divs = soup.find_all('div', class_='SearchItem_Wrapper__1lhgt')
 
+    # find the div that contains the movie title    
+
     for div in search_divs:
-        # Get the combined title and year string, e.g. "Deep Fear (2023)"
+        # get the combined title and year string, e.g. "Deep Fear (2023)"
         title_element = div.find('h3', class_='Type_title__142II SearchItem_Title__38hx7')
         if not title_element:
             continue
 
         full_title = title_element.get_text(strip=True)
 
-        # Use regular expression to find the last set of brackets with a year inside
+        # use regular expression to find the last set of brackets with a year inside
         year_match = re.search(r"\((\d{4})\)", full_title)
 
         if year_match:
             found_year = int(year_match.group(1))
 
-            # Loose match title and exact match year
+            # match title and year
             if title.lower() in full_title.lower() and found_year == year:
-                # Extract the rating from the same div
+                # extract the rating from the same div
                 rating_span = div.find('span', class_='Icon_Icon__9RCS8 SearchItem_Rating__2fbS8')
                 if rating_span:
                     rating = rating_span.get('aria-label', '').replace("Rated ", "").strip()
@@ -45,7 +48,7 @@ def search_bbfc_url(title, year):
     print("No matching title/year found")
     return None
 
-
+# append the age rating to the top of the script
 def append_rating_to_script(filename, rating):
     """
     Prepend the UK age rating to the top of the script file.
@@ -59,6 +62,7 @@ def append_rating_to_script(filename, rating):
         print(f"Error updating file {filename}: {e}")
 
 def main():
+    # go through the movie_scripts folder and run the code on each
     for scriptname in os.listdir(folder):
         if not scriptname.endswith(".txt"):
             continue
@@ -79,7 +83,7 @@ def main():
         file_path = os.path.join(folder, scriptname)
         append_rating_to_script(file_path, rating)
 
-        # Be polite to the BBFC site
+        # to prevent overwhelming the server, pause briefly
         time.sleep(2)
 
     print("All scripts have been updated with UK age ratings.")

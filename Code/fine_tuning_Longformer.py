@@ -15,6 +15,7 @@ import spacy
 import os
 import re
 
+# add every script to a list of dictionaries
 def buildingDataset():
   data_path = f"DSP-Final/movie_scripts"
   scripts = []
@@ -39,17 +40,20 @@ class WeightedTrainer(Trainer):
         loss = loss_fct(logits, labels)
         return (loss, outputs) if return_outputs else loss
 
+    # create an optimizer with AdamW for learning rate decay
     def create_optimizer(self):
         self.optimizer = AdamW(optimizer_grouped_parameters, lr=initial_lr)
         return self.optimizer
 
     def training_step(self, *args, **kwargs):
       output = super().training_step(*args, **kwargs)
+      # empty cache
       torch.cuda.empty_cache()
       return output
 
     def evaluate(self, *args, **kwargs):
         output = super().evaluate(*args, **kwargs)
+        # empty cache
         torch.cuda.empty_cache()
         return output
 
@@ -57,16 +61,17 @@ class WeightedTrainer(Trainer):
 print(f"Original dataset size {len(scripts)}")
 rating_map = {'U': 0, 'PG': 1, '12': 2, '12A': 3, '15': 4, '18': 5}
 nlp = spacy.load("en_core_web_sm")
+# disable uneseccary pipelines
 nlp.disable_pipes("tagger", "ner", "lemmatizer", "attribute_ruler")
 
 def clean_script(script):
     lines = [line.strip() for line in script["text"].splitlines() if line.strip()]
 
-    # First non-empty line is assumed to be the age rating
+    # first non-empty line is assumed to be the age rating
     age_rating_line = lines[0]
     label = rating_map.get(age_rating_line.split(":")[1].strip())
 
-    # Remove first two non-empty lines (Reason for Rating and Age Rating)
+    # remove first non-empty line (Age Rating)
     raw = "\n".join(lines[1:])
 
     return {"raw": raw, "label": label}
@@ -119,10 +124,10 @@ def create_chunked_dataset(processed_scripts, tokenizer):
     return Dataset.from_dict({"input_ids": chunked_texts, "label": chunked_labels})
 
 
-# Apply the processing function to the full list of scripts
+# apply the processing function to the full list of scripts
 processed_scripts = process_all_scripts(scripts)
 
-# set the BERT model
+# set the Longformer model
 model_path = "allenai/longformer-base-4096"
 
 # tokenize the data
@@ -131,32 +136,26 @@ tokenizer.padding_side = "right"
 tokenizer.truncation_side = "right"
 
 
-# Chunk the processed scripts using your tokenizer
+# chunk the processed scripts using the tokenizer
 chunked_dataset = create_chunked_dataset(processed_scripts, tokenizer)
 
-# Split the dataset into train/test
+# split the dataset into train/test
 dataset = chunked_dataset.train_test_split(test_size=0.2)
 
-# Extract scripts and labels from the training portion
+# extract scripts and labels from the training portion
 scripts = dataset["train"]["input_ids"]
 labels = dataset["train"]["label"]
 
-# Split the training set into train and validation using sklearn, with stratification
-train_scripts, val_scripts, train_labels, val_labels = train_test_split(
-    scripts, labels, test_size=0.1, stratify=labels, random_state=42
-)
+# split the training set into train and validation using sklearn, with stratification
+train_scripts, val_scripts, train_labels, val_labels = train_test_split(scripts, labels, test_size=0.1, stratify=labels, random_state=42)
 
-# Convert splits back into Hugging Face Datasets
+# convert splits back into HuggingFace Datasets
 train_dataset = Dataset.from_dict({"input_ids": train_scripts, "label": train_labels})
 val_dataset = Dataset.from_dict({"input_ids": val_scripts, "label": val_labels})
 test_dataset = dataset["test"]  # already a Hugging Face Dataset
 
-# Wrap in DatasetDict
-dataset_dict = DatasetDict({
-    "train": train_dataset,
-    "validation": val_dataset,
-    "test": test_dataset
-})
+# wrap in DatasetDict
+dataset_dict = DatasetDict({"train": train_dataset, "validation": val_dataset, "test": test_dataset})
 
 
 
@@ -165,6 +164,7 @@ id2label = {rating: value for value, rating in rating_map.items()}
 label2id = rating_map
 model = AutoModelForSequenceClassification.from_pretrained(model_path, num_labels=6, id2label=id2label, label2id=label2id)
 
+# calculate the class weights
 label_counts = Counter([example["label"] for example in train_dataset])
 print("Label distribution:", label_counts)
 total = sum(label_counts.values())
@@ -172,16 +172,17 @@ class_weights = [total / label_counts[i] for i in range(len(rating_map))]
 class_weights = torch.tensor(class_weights).to(torch.float)
 print("Class weights:", class_weights)
 
+# model config setup
 model.config.problem_type = "single_label_classification"
 model.config.classifier_dropout = 0.1
 
-
+# set the data collator
 data_collator = DataCollatorWithPadding(tokenizer=tokenizer)
 
-# load in accuracy and auc scores
+# load in AUC score
 auc_score = evaluate.load("roc_auc", config_name="multiclass")
 
-# calculate prediction accuracy rounded to 3 decimal places between 0-1
+# calculate prediction accuracy between 0-1
 def compute_metrics(eval_pred):
     predictions, labels = eval_pred
     probabilities = t.softmax(torch.tensor(predictions), dim=-1).numpy()
@@ -199,15 +200,17 @@ def compute_metrics(eval_pred):
     print("Sample label:", labels[0])
 
 
+    # fallback if AUC is 0.0
     try:
         auc = np.round(auc_score.compute(prediction_scores=probabilities, references=labels, average='macro', multi_class="ovr")['roc_auc'], 3)
     except ValueError:
-        auc = 0.0  # fallback if AUC can't be computed (e.g., only one class present)
+        auc = 0.0  
 
     predicted_classes = np.argmax(probabilities, axis=1)
     print("Predicted class counts:", Counter(predicted_classes))
     print("True class counts:", Counter(labels))
 
+    # display the classification report after each epoch
     print(classification_report(labels, predicted_classes, target_names=id2label.values()))
 
     return {"Accuracy": accuracy, "Precision": precision, "Recall": recall, "F1": f1, "AUC": auc}
@@ -221,14 +224,14 @@ initial_lr = 2e-5
 layerwise_lr_decay = 0.95
 no_decay = ["bias", "LayerNorm.weight"]
 
-# Extract all encoder layers (from bottom to top)
+# extract all encoder layers (from bottom to top)
 encoder_layers = model.longformer.encoder.layer
 num_layers = len(encoder_layers)
 
-# Helper to collect parameters layer by layer
+# helper to collect parameters layer by layer
 optimizer_grouped_parameters = []
 
-# Add embedding layer with lowest LR
+# add embedding layer with lowest LR
 optimizer_grouped_parameters.append({
     "params": [p for n, p in model.longformer.embeddings.named_parameters() if not any(nd in n for nd in no_decay)],
     "weight_decay": weight_decay,
@@ -238,7 +241,7 @@ optimizer_grouped_parameters.append({
     "weight_decay": 0.0,
     "lr": initial_lr * (layerwise_lr_decay ** num_layers)})
 
-# Add encoder layers with decaying LRs
+# add encoder layers with decaying LRs
 for i, layer in enumerate(encoder_layers):
     layer_lr = initial_lr * (layerwise_lr_decay ** (num_layers - i - 1))
     optimizer_grouped_parameters.append({
@@ -252,7 +255,7 @@ for i, layer in enumerate(encoder_layers):
         "lr": layer_lr,
     })
 
-# Add the classifier layer
+# add the classifier layer
 optimizer_grouped_parameters.append({
     "params": [p for n, p in model.classifier.named_parameters() if not any(nd in n for nd in no_decay)],
     "weight_decay": weight_decay,
@@ -277,6 +280,7 @@ torch.cuda.empty_cache()
 log_history = trainer.state.log_history
 metrics = []
 
+# append the metrics to an Excel sheet
 for entry in log_history:
     if "eval_Accuracy" in entry:
         metrics.append({"epoch": entry["epoch"], "accuracy": entry["eval_Accuracy"], "precision": entry["eval_Precision"], "recall": entry["eval_Recall"], "f1": entry["eval_F1"], "auc": entry["eval_AUC"],})
@@ -284,6 +288,7 @@ for entry in log_history:
 df = pd.DataFrame(metrics)
 df.to_excel("training_results.xlsx", index=False)
 
+# find the best model
 best_model_path = trainer.state.best_model_checkpoint
 print(best_model_path)
 model = AutoModelForSequenceClassification.from_pretrained(best_model_path)
@@ -291,10 +296,10 @@ tokenizer = AutoTokenizer.from_pretrained(best_model_path)
 
 
 def predict_on_test_data():
-    # Create dataloader from test data
+    # create dataloader from test data
     test_dataloader = DataLoader(test_dataset, batch_size=8)
 
-    # Run predictions
+    # run predictions
     trainer = Trainer(model=model)
     predictions = trainer.predict(test_dataset)
 
@@ -304,11 +309,9 @@ def predict_on_test_data():
     report = classification_report(test_labels, predicted_classes, target_names=id2label.values())
     print(f"\nTest Set Evaluation:{report}")
 
-    # Save predictions if needed
-    results_df = pd.DataFrame({
-        "true_label": test_labels,
-        "predicted_label": predicted_classes
-    })
+    # save predictions
+    results_df = pd.DataFrame({"true_label": test_labels, "predicted_label": predicted_classes})
     results_df.to_excel("test_predictions.xlsx", index=False)
 
+# run the model on test data
 predict_on_test_data()

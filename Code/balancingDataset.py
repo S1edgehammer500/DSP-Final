@@ -8,10 +8,12 @@ def count_ratings(filepath):
         with open(filepath, "r", encoding="utf-8") as file:
             lines = file.readlines()
             for line in lines:
+                # find the rating line and check if the rating is valid
                 if line.startswith("UK Age Rating:"):
                     rating = line.strip().split("UK Age Rating:")[1].strip()
                     if rating in ratings and ratings[rating] < 250:
                         ratings[rating] += 1
+                    # if the nummber of scripts in a given rating reaches 250, delete any excess
                     elif ratings[rating] >= 250:
                         file.close()
                         os.remove(filepath)
@@ -21,6 +23,7 @@ def count_ratings(filepath):
         print(f"Error opening {filepath}: {e}")
     
 def main():
+    # loop through movie_scripts to run the code on each script
     for scriptname in os.listdir(folder):
         filepath = os.path.join(folder, scriptname)
         if not scriptname.endswith(".txt"):

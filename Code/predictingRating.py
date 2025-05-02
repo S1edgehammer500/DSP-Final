@@ -6,16 +6,16 @@ import pandas as pd
 import heapq
 import re
 
-# Load model and tokenizer
+# load model and tokenizer
 best_model_path = "DSP-Final/age_rating_classifier/age_rating_classifier/checkpoint-2340"
 model = AutoModelForSequenceClassification.from_pretrained(best_model_path)
 tokenizer = AutoTokenizer.from_pretrained(best_model_path)
 
-# Optional: Enable GPU
+# enable GPU
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model.to(device)
 
-# Load spaCy
+# load spaCy
 nlp = spacy.load("en_core_web_sm")
 nlp.disable_pipes("ner", "lemmatizer", "tagger", "attribute_ruler")
 
@@ -28,7 +28,7 @@ def preprocess_script(script_text):
 def classify_script(script_text):
     cleaned_text = preprocess_script(script_text)
 
-    # Tokenize the full script
+    # tokenize the full script
     tokens = tokenizer(cleaned_text, return_tensors="pt", truncation=False, padding=False)
 
     input_ids = tokens["input_ids"][0]  # shape: [seq_len]
@@ -38,12 +38,12 @@ def classify_script(script_text):
     chunks = []
     masks = []
 
-    # Chunk into blocks of 4096 tokens
+    # chunk into blocks of 4096 tokens
     for i in range(0, input_ids.size(0), max_length):
         chunk_ids = input_ids[i:i+max_length]
         chunk_mask = attention_mask[i:i+max_length]
 
-        # Pad if needed
+        # pad if needed
         if chunk_ids.size(0) < max_length:
             pad_len = max_length - chunk_ids.size(0)
             chunk_ids = torch.cat([chunk_ids, torch.zeros(pad_len, dtype=torch.long)])
@@ -52,7 +52,7 @@ def classify_script(script_text):
         chunks.append(chunk_ids.unsqueeze(0))
         masks.append(chunk_mask.unsqueeze(0))
 
-    # Stack all chunks and send to device
+    # stack all chunks and send to device
     input_ids_tensor = torch.cat(chunks).to(device)
     attention_mask_tensor = torch.cat(masks).to(device)
 
@@ -67,7 +67,7 @@ def classify_script(script_text):
             )
             all_logits.append(outputs.logits)
 
-    # Average logits over all chunks
+    # average logits over all chunks
     avg_logits = torch.mean(torch.stack(all_logits), dim=0)
     probs = torch.nn.functional.softmax(avg_logits, dim=-1)
     predicted_class = torch.argmax(probs, dim=-1).item()
@@ -82,7 +82,7 @@ def highlight_top_blocks(script_text, model, tokenizer, target_label, top_k=20, 
     all_lines = [line for line in script_text.splitlines() if line.strip()]
     total = len(all_lines)
     
-    # Create blocks of 5 lines
+    # create blocks of 5 lines
     blocks = [
         "\n".join(all_lines[i:i+5])
         for i in range(0, total, 5)
@@ -92,6 +92,7 @@ def highlight_top_blocks(script_text, model, tokenizer, target_label, top_k=20, 
     block_scores = []
     progress_bar = st.progress(0)
 
+    # run the model on all line sets in batches
     model.eval()
     with torch.no_grad():
         batches = [blocks[i:i+batch_size] for i in range(0, len(blocks), batch_size)]
@@ -103,6 +104,7 @@ def highlight_top_blocks(script_text, model, tokenizer, target_label, top_k=20, 
                 padding="max_length",
                 max_length=512
             )
+
             encoded = {k: v.to(device) for k, v in encoded.items()}
             logits = model(**encoded).logits
             probs = torch.nn.functional.softmax(logits, dim=-1)
@@ -114,11 +116,11 @@ def highlight_top_blocks(script_text, model, tokenizer, target_label, top_k=20, 
 
             progress_bar.progress(min((batch_idx + 1) / len(batches), 1.0))
 
-    # Top-K blocks
+    # top-K blocks
     top_blocks = heapq.nlargest(top_k, block_scores, key=lambda x: x[1])
     top_block_set = set(text for text, _ in top_blocks)
 
-    # Re-highlight full script
+    # re-highlight full script
     highlighted_script = ""
     for i in range(0, total, 5):
         block = "\n".join(all_lines[i:i+5])
@@ -138,7 +140,7 @@ if uploaded_file:
 
     lines = script_text.splitlines()
 
-    # Remove the first non-empty line if it starts with "UK Age Rating:"
+    # remove the first non-empty line if it starts with "UK Age Rating:"
     filtered_lines = []
     found_rating = False
 
@@ -149,7 +151,7 @@ if uploaded_file:
             continue  # Skip this line
         filtered_lines.append(line)
 
-    # Join cleaned lines back
+    # join cleaned lines back
     script_text = "\n".join(filtered_lines)
     
     preview_placeholder = st.empty()
@@ -168,16 +170,16 @@ if uploaded_file:
 
     confidence_df["Age Rating"] = pd.Categorical(confidence_df["Age Rating"], categories=rating_order, ordered=True)
 
-    # Sort the DataFrame by the defined order
+    # sort the DataFrame by the defined order
     confidence_df = confidence_df.sort_values("Age Rating")
 
     st.subheader(f"Predicted Age Rating: {predicted_label}")
 
-    # Show bar chart of confidence scores
+    # show bar chart of confidence scores
     st.bar_chart(confidence_df.set_index("Age Rating"))
 
     def escape_markdown(text):
-        # Escape hyphen, asterisk, and numbered list markdown at the start of lines
+        # escape hyphen, asterisk, and numbered list markdown at the start of lines
         return re.sub(r'^(\s*[-*]|\s*\d+\.)', r'\\\1', text, flags=re.MULTILINE)
 
     with st.spinner("Highlighting most influential lines..."):
