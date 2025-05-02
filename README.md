@@ -42,4 +42,6 @@ The file with the code for running the UI is with the model is predictingRating.
 You can run it with this in the Terminal:
 python -m streamlit run predictingRating.py
 
+There are two scripts - Val_(2021).txt and Zombieland_(2009).txt to use when testing the UI if you want to give the model a script it hasn't seen before
+
 
